@@ -105,10 +105,10 @@ session_start();
           <div class="col-lg-12">
             <div class="p-5">
                 <h2 class="text-center">"Es ist Zeit, auszuruhen"</h2>
-              <p class="text-center"><br>Das war das Thema bei einer Bibelarbeit auf der <a href="http://www.die-zeltstadt.de/" target="_blank">Zeltstadt in Neufrankenroda</a> im Sommer 2018.</p>
-              <p class="text-center">Am Montag, 30.07.2018 sprach Schwester Elise über einen alttestamentlichen <a href="https://www.bibleserver.com/text/LUT/1.Mose1" target="_blank">Bibeltext</a>. Um 11 Uhr folgte das Nachgespräch.</p>
-              <p class="text-center">Auf dieser Website übertrugen wir die beiden Veranstaltungen im Livestream.</p>
-              <p class="text-center">Ihr könnt hier direkt kommentieren, auf unserer <img class="img-fluid" src="img/social_facebook_box_blue.32.png" alt="Logo facebook">
+                <p class="text-center"><br>Das war das Thema bei einer Bibelarbeit auf der <a href="http://www.die-zeltstadt.de/" target="_blank">Zeltstadt in Neufrankenroda</a> im Sommer 2018.</p>
+                <p class="text-center">Am Montag, 30.07.2018 sprach Schwester Elise über einen alttestamentlichen <a href="https://www.bibleserver.com/text/LUT/1.Mose1" target="_blank">Bibeltext</a>. Um 11 Uhr folgte das Nachgespräch.</p>
+                <p class="text-center">Auf dieser Website übertrugen wir die beiden Veranstaltungen im Livestream.</p>
+                <p class="text-center">Ihr könnt hier direkt kommentieren, auf unserer <img class="img-fluid" src="img/social_facebook_box_blue.32.png" alt="Logo facebook">
                   <a href="https://www.facebook.com/Onlinekirche-888512347994626/" target="_blank">facebook-Seite</a>,
                   auf <img class="img-fluid" src="img/IG_Glyph_Fill.png" alt="Logo Instagram">
                   <a href="https://www.instagram.com/onlinekirche/" target="_blank">Instagram</a>
@@ -116,6 +116,7 @@ session_start();
                   Bitte benutzt immer das Hashtag #OKruhen</p>
             </div>
           </div>
+        </div>
       </div>
     </section>
 
@@ -339,12 +340,14 @@ Ich darf flexibel sein in der Zeit Einteilung. Es muss nicht jeden Tag um 5 h se
         <div class="row">
           <div class="col-lg-12">
             <div class="p-5">
-              <p class="text-center"><?php
-              $cmtx_identifier = '2';
-              $cmtx_reference  = 'Page okruhen';
-              $cmtx_folder     = '/inc-cm-9b9df53e6e895e2cea/';
-              require($_SERVER['DOCUMENT_ROOT'] . $cmtx_folder . 'frontend/index.php');
-              ?></p>
+              <p class="text-center">
+                <?php
+                $cmtx_identifier = '2';
+                $cmtx_reference  = 'Page okruhen';
+                $cmtx_folder     = '/inc-cm-9b9df53e6e895e2cea/';
+                require($_SERVER['DOCUMENT_ROOT'] . $cmtx_folder . 'frontend/index.php');
+                ?>
+            </p>
             </div>
           </div>
        </div>
@@ -360,7 +363,7 @@ Ich darf flexibel sein in der Zeit Einteilung. Es muss nicht jeden Tag um 5 h se
               (<a href="https://www.erprobungsraeume-ekm.de/" target="_blank">Erprobungsraum</a> der <a href="https://ekmd.de" target="_blank">Evangelischen Kirche in Mitteldeutschland</a>)</p>
               <p class="text-center"><a href="https://onlinekirche.ekmd.de/service/impressum/" target="_blank">Impressum</a><br>
               <a href="https://onlinekirche.ekmd.de/service/datenschutz/" target="_blank">Datenschutz</a><br>
-              <a href="https://onlinekirche.ekmd.de/mitmachen/newsletter/" target="_blank">Newsletter bestellen</a>
+              <a href="https://onlinekirche.ekmd.de/mitmachen/newsletter/" target="_blank">Newsletter bestellen</a></p>
             </div>
           </div>
        </div>
